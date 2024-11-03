@@ -1,8 +1,6 @@
 version : "3.3"
 services :
   web :
-     #image: "trainwithshubham/notes-app:latest"
-     build:
-       context: .
+     image: "foysalmahmud68/notes-app:latest"
      ports :
          - "8000:8000"
