@@ -4,13 +4,6 @@ pipeline{
     agent {label "foysal"}
     
     stages {
-        stage("Hello"){
-             steps{
-                 script{
-                     hello()
-                 }
-             }
-        }
         stage("Code pull"){
             steps{
                 script{
